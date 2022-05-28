@@ -1,4 +1,4 @@
-# Pirple-Academy
+![alt text](https://raw.githubusercontent.com/CodingPawn/Pirple-Academy/main/pirple-logo-black-cropped.png)
 <h2>• Main information</h2>
 <h3>► This is a repository that contains homeworks and projects from Pirple Academy.</h3>
 <h2>• Certificates</h2>
