@@ -1,7 +1,7 @@
 import random
 
-mylist = ("secret", "fridge", "programmer", "bank", "money", "music", "security")
-word = random.choice(mylist)
+my_list = ("secret", "fridge", "programmer", "bank", "money", "music", "security")
+word = random.choice(my_list)
 print("Player 1 - Pick a word; Player 2 - Guess it!")
 print("I choose this one:")
 allowed_errors = 6
