@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2021 by CodingPawn (http://jsbin.com/ninopun/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lasagna recipe</title>
+<style id="jsbin-css">
+body {
+  background-color: yellow;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+p {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
+  margin: 5px 10px 15px;
+}
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  margin: 20px 25px 30px;
+}
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  padding: 15px;
+  margin: 35px 40px 45px;
+}
+ol {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#Ingredients ol {
+  list-style-type: square;
+}
+
+#Steps ol {
+  list-style-type: upper-roman;
+}
+
+p span {
+  font-style: italic;
+}
+
+#Unique span {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.Special-div {
+  font-style: normal;
+  color: red;
+}
+/*I don't know why I can't remove italic.*/
+
+#Intro {
+  text-align: center;
+  list-style-type: none;
+}
+main article {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+#Text {
+  width: 50%;
+  font-size: 20px;
+  margin-right: 40px;
+  margin-left: 60px;
+}
+#Text p:first-child {
+  margin-bottom: 40px;
+}
+#Ingredients {
+  width: 400px;
+  background-color: lightgray;
+  border-radius: 10px;
+  padding-bottom: 2px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+#Steps {
+  background-color: lightgray;
+  border-radius: 10px;
+  padding-bottom: 2px;
+  margin-left: 40px;
+  
+}
+.Sheet h2{
+  text-align: center;
+}
+
+.Sheet li {
+  font-size: 19px;
+}
+#Separation li:last-child {
+  text-align: center;
+}
+#Image img {
+  width: 20%;
+  height: auto;
+}
+
+#First-image img {
+  text-align: center;
+  width: 50%;
+  padding-top: 20px;
+  height: auto;
+}
+
+#Second-image img {
+  text-align: center;
+  width: 40%;
+  padding-top: 20px;
+  height: auto;
+}
+
+#Fourth-image img {
+  text-align: center;
+  padding-top: 20px;
+  width: 35%;
+  height: auto;
+}
+
+#Fifth-image img {
+  text-align: center;
+  width: 35%;
+  padding-top: 20px;
+  height: auto;
+}
+#Steps h2 {
+  text-align: center;
+}
+#Comparison {
+  width: 50%;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#End h2 {
+  text-align: center;
+  color: red;
+}
+/*CSS Media*/
+@media screen and (max-width: 399px) {
+  p {
+    background-color: #fff;
+    font-size: 25px;
+  }
+}
+@media print and (min-width: 401px) and (max-width: 750px) {
+  body {
+    color: orange;
+    opacity: 0;
+  }
+}
+@media screen, print (min-width: 751px) {
+  body {
+    background-color: red;
+  }
+}
+</style>
+</head>
+<body>
+  <!--https://www.tutorialrepublic.com/css-reference/css3-properties.php-->
+  <main>
+  <header id="Intro">
+  <h1>Lasagne recipe</h1>
+  <div class="Special-div">
+  <p>Lasagna is a <span style="color:red;">traditional italian</span> dish. It is a type of flat pasta, possibly one of the <span style="color:red;">oldest</span> types of pasta.
+    <section id="Unique">
+    <li>The reason I like this dish so much is that it is very <span style="color:red;">tasty</span> and worth a try.</li></p>
+  </section>
+  </div>
+ </header>
+    
+    <article>
+      
+      <section id="Text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+          Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. 
+          Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. 
+          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+          Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. 
+          Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. 
+          Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+        </p>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </section>
+  <section id="Ingredients" class="Sheet">
+  <h2>Ingredients</h2>
+  <!-- Unordered list -->
+    <ol>
+    <li>2 tbsp olive oil, plus a little for the dish</li>
+    <li>750g lean beef mince</li>
+    <li>90g pack prosciutto</li>
+    <li>half quantity of tomato sauce</li>
+    <li>200ml hot beef stock</li>
+    <li>a little grated nutmeg</li>
+    <li>300g pack fresh lasagne sheets</li>
+    <li>half quantity of white sauce</li>
+    <li>125g ball mozzarella, torn into thin strips</li>
+  </ol>
+  </section>
+  
+    <section id="Steps" class="Sheet">
+  <h2>Steps</h2>
+  <!-- Ordered list -->
+    <ol>
+    <h3><li>Making the meat sauce 🥫</li></h3>
+    <ul>
+      <li>Heat 2tbsp olive oil in a frying pan and cook 750g lean beef mince in two batches for about 10 mins until browned all over.</li>
+    </ul>
+    <h3><li>Chopping the prosciutto 🍖</li></h3>
+    <ul>
+      <li>Finely chop 4 slices of prosciutto from a 90g pack, then stir through the meat mixture.</li>
+    </ul>
+    <h3><li>Pouring the passata 🥫</li></h3>
+    <ul>
+      <li>Pour over 800g passata or half tomato sauce and 200ml hot beef stock. Add a little grated nutmeg, then season.</li>
+    </ul>
+    <h3><li>Bringing up to the boil ♨️</li></h3>
+      <ul>
+        <li>Bring up to the boil, then simmer for 30 mins until the sauce looks rich.</li>
+    </ul>
+    <h3><li>Heating ♨️</li></h3>
+    <ul>
+      <li>Heat oven to 180C/fan/160C gas and lightly oil an ovenproof dish(about 30 x 20cm).</li>
+    </ul>
+    <h3><li>Spooning and covering 🥄</li></h3>
+    <ul>
+      <li>Spoon one third of the meat sauce into the dish, then cover with some fresh lasagne sheets from a 300g pack. Drizzle over roughly 130g ready-made or homemade white sauce.</li>
+    </ul>
+    <h3><li>Repeating 🔁</li></h3>
+    <ul>
+      <li>Repeat until you have 3 layers of pasta. Cover with the remaining 390g white sauce, making sure you can't see any pasta poking through.</li>
+    </ul>
+    <h3><li>Scattering mozzarella </li></h3>
+    <ul>
+      <li>Scatter 125g torn mozzarella over the top.</li>
+    </ul>
+    <h3><li>Arranging</li></h3>
+    <ul>
+      <li>Arrange the rest of the prosciutto on top. Bake for 45 mins until the top is bubbling and lightly browned.</li>
+    </ul>
+      </ol>
+  </section>
+
+<section id="Comparison" class="Sheet">
+    <h2><p>Best 5 recipes for lasagna 😋</h2></p>
+<ol>
+  <li><a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/">World's Best Lasagna</a></li>
+  <ul>
+    <section id="First-image">
+    <li><img src="https://imgur.com/ZO8iP12.jpg"alt="First one"</li>
+    </section>
+  </ul>
+  <li><a href="https://cafedelites.com/best-lasagna/">best lasagna</a></li>
+  <ul>
+    <section id="Second-image">
+    <li><img src="https://imgur.com/fbrgDKy.jpg"alt="Second one"</li>
+    </section>
+  </ul>
+  <li><a href="https://www.simplyrecipes.com/recipes/lasagna/">Classic lasagna</a></li>
+  <ul>
+    <li><img scr="https://imgur.com/oSZ1MOO.jpg"alt="Third one"</li>
+  </ul>
+  <li><a href="https://www.spendwithpennies.com/easy-homemade-lasagna/">Easy Homemade Lasagna</a></li>
+  <ul>
+    <section id="Fourth-image">
+    <li><img src="https://imgur.com/VsqtiNv.jpg"alt="Fourth one"</li>
+    </section>
+  </ul>
+  <li><a href="https://cupcakesandkalechips.com/worlds-best-lasagna-recipe/">The World's Best Homemade Lasagna Recipe</a></li>
+  <ul>
+    <section id="Fifth-image">
+    <li><img src="https://imgur.com/vCTsiOG.jpg"alt="Fifth one"</li>
+    </section>
+  </ul>
+</ol>
+  </section>
+ </article>
+  
+<section id="Separation">
+  <section id="Image">
+  <li><img src="https://imgur.com/g6GS7gf.jpg" alt="Lasagna"</li>
+  </section>
+  
+<section id="End">
+  <h2>I hope you enjoy the dish! Bon apétit! 😊</h2>
+</section>
+  </section>
+ </main>
+</body>
+</html>

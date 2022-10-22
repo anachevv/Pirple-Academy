@@ -1,0 +1,10 @@
+<button onclick="displaycount()"> I like it </button>
+<p id="carrier"> 0 </p>
+<script>
+var count = (function () {
+var counter = 0;
+return function () {return counter +=1;}
+})();
+function displaycount(){
+document.getElementById("Carrier").InnerHTML = count();
+}

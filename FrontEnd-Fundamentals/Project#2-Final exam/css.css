@@ -1,0 +1,1709 @@
+body {
+    background-color: white;
+  }
+  nav {
+    width: 100%;
+    text-align: center;
+    height: 45px;
+    background-color: black;
+    line-height: 45px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 280px;
+  }
+  nav li {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .topbar_section {
+    float: left;
+    border-left: 1px solid #ccc;
+  }
+  #BBC-logo {
+    padding-top: 5px;
+    margin-right: 5px;
+    padding-right: 20px;
+  }
+  #sign-in {
+    border-left: 1px solid #ccc;
+    padding-right: 150px;
+  }
+  #home {
+    border-left: 1px solid #ccc;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #news {
+    border-left: 1px solid #ccc;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #sport {
+    border-left: 1px solid #ccc;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #reel {
+    border-left: 1px solid #ccc;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #worklife {
+    border-left: 1px solid #ccc;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #travel {
+    border-left: 1px solid #ccc;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #future {
+    border-left: 1px solid #ccc;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #culture {
+    border-left: 1px solid #ccc;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #more {
+    border-left: 1px solid #ccc;
+    padding-right: 58px;
+  }
+  .search-box {
+    padding-left: 10px;
+    border-left: 1px solid #ccc;
+  }
+  #More-logo {
+    padding-top: 10px;
+  }
+  *,
+  *:before,
+  *:after{
+      padding: 0;
+      margin: 0;
+  }
+  
+  nav a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
+    font-size: 17px;
+  }
+  nav a:after{
+      content: "";
+      position: absolute;
+      background-color: #ff3c78;
+      height: 3px;
+      width: 0;
+      left: 0;
+      bottom: -10px;
+      transition: 0.3s;
+  }
+  nav a:hover{
+      color: green;
+  }
+  nav a:hover:after {
+       width: 100%; 
+  }
+  
+  /*Introduction*/
+  
+  #Introduction {
+    font-family: 'Poppins',sans-serif;
+    margin-top: 10px;
+    margin-left: 268px;
+  }
+  .article {
+    margin-left: 270px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  #output {
+    font-family: 'Poppins',sans-serif;
+    margin-right: 263px;
+    display: flex;
+    justify-content: right;
+  }
+  
+  /*End of Introduction*/
+  
+  #image-box {
+      box-sizing: border-box;
+  }
+  
+  /*First image block*/
+  
+  .column {
+    float: left;
+    width: 46.4%;
+    padding: 5px;
+    height: auto;
+  }
+  #first-image a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #first-image a:hover {
+    color: green;
+  }
+  #heading-class a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #heading-class a:hover {
+    color: green;
+  }
+  #figcaption-link a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #figcaption-link a:hover {
+    color: green;
+  }
+  .column1 {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    height: auto;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /*First image*/
+  
+  .banner {
+    position: relative;
+    width: 90%;
+    margin: 0;
+  }
+  .banner a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  .banner a:hover {
+    color: green;
+  }
+  .banner1 {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  .banner1 a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  .banner1 a:hover {
+    color: green;
+  }
+  #demolition a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #demolition a:hover {
+    color: green;
+  }
+  #euro-2020 a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #euro-2020 a:hover {
+    color: green;
+  }
+  #euro-2020 h2 {
+    font-size: 17px;
+  }
+  #swedish-stores a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #swedish-stores a:hover {
+    color: green;
+  }
+  #Ukraine-England a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #Ukraine-England a:hover {
+    color: green;
+  }
+  #Vatican a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #Vatican a:hover {
+    color: green;
+  }
+  #Vatican h3 {
+    background: #E5E4E2;
+  }
+  #Vatican h4 {
+    padding-bottom: 2px;
+    font-size: 16px;
+  }
+  #high-heel a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #high-heel a:hover {
+    color: green;
+  }
+  #high-heel h3 {
+    background: #E5E4E2;
+  }
+  #high-heel h4 {
+    padding-bottom: 3px;
+    font-size: 16px;
+  }
+  #Migrant-boat a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #Migrant-boat a:hover {
+    color: green;
+  }
+  #Migrant-boat  h3{
+    background: #E5E4E2;
+  }
+  #Migrant-boat h4 {
+    padding-bottom: 3px;
+  }
+  #Wimbledon a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #Wimbledon a:hover {
+    color: green;
+  }
+  #Wimbledon h3 {
+    background: #E5E4E2;
+  }
+  #Denmark h3 {
+    background: #E5E4E2;
+  }
+  #Denmark h4 {
+    padding-bottom: 3px;
+  }
+  #Verstappen a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #Verstappen a:hover {
+    color: green;
+  }
+  #Verstappen h3 {
+    background: #E5E4E2;
+  }
+  #Verstappen h4 {
+    padding-bottom: 3px;
+  }
+  #air-rage a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #air-rage a:hover {
+    color: green;
+  }
+  #air-rage h3 {
+    background: #E5E4E2;
+  }
+  #mystery a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #mystery a:hover {
+    color: green;
+  }
+  #mystery h3 {
+    background: #E5E4E2;
+  }
+  #mystery h4 {
+    padding-bottom: 18px;
+  }
+  #Australian-tree a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #Australian-tree a:hover {
+    color: green;
+  }
+  #Australian-tree h3 {
+    background: #E5E4E2;
+  }
+  #Australian-tree h4 {
+    padding-bottoM: 18px;
+  }
+  .banner2 {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  .banner3 {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  .banner4 {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  .heading {
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding-top: 200px;
+    text-align: left;
+    font-size: 25px;
+    text-shadow: 5px 5px 10px #000000;
+  }
+  .heading1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding-bottom: 200px;
+    text-align: left;
+    font-size: 18.4px;
+    text-shadow: 5px 5px 10px #000000;
+  }
+  .heading2 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding-bottom: 200px;
+    text-align: left;
+    font-size: 18px;
+    text-shadow: 5px 5px 10px #000000;
+  }
+  .heading3 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding-bottom: 200px;
+    text-align: left;
+    font-size: 18px;
+    text-shadow: 5px 5px 10px #000000;
+  }
+  .heading4 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding-bottom: 200px;
+    text-align: left;
+    font-size: 18px;
+  }
+  .banner figcaption {
+    position: absolute;
+    font-size: 15px;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding-left: 15px;
+    padding-bottom: 100px;
+  }
+  #first-image, h2, figcaption {
+    padding-left: 15px;
+  }
+  
+  /*End of First image*/
+  
+  /*End of First image block*/
+  
+  /*Second-paragraph-News*/
+  
+  /*Second image block*/
+  .column2 {
+    float: left;
+    width: 27.45%;
+    padding: 5px;
+    height: auto;
+  }
+  .row2::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row2 {
+    padding-left: 10px;
+  }
+  /*End of Second image block*/
+  #News h4 {
+    font-weight: normal;
+  }
+  #News a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #News a:hover {
+    color: green;
+  }
+  /*Third paragraph-Sport*/
+  
+  /*Third image block*/
+  .column3 {
+    float: left;
+    width: 27.45%;
+    padding: 5px;
+    height: auto;
+  }
+  .row3::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row3 {
+    padding-left: 10px;
+  }
+  #Sport h4 {
+    font-weight: normal;
+    
+  }
+  #Sport a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #Sport a:hover {
+    color: green;
+  }
+  /*End of Third image block*/
+  
+  /*End of Sport*/
+  
+  /*Fourth paragraph-Weekend Reads*/
+  /*Fourth image block*/
+  .column4 {
+    float: left;
+    width: 27.45%;
+    padding: 5px;
+    height: auto;
+  }
+  .row4::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row4 {
+    padding-left: 10px;
+  }
+  #Weekend-Reads h2 {
+    font-family: 'Poppins',sans-serif;
+  }
+  #Weekend-Reads h4 {
+    font-weight: normal;
+  }
+  #Weekend-Reads {
+    padding-bottom: 30px;
+  }
+  /*End of Fourth image block*/
+  
+  /*End of Fourth paragraph-Weekend Reads*/
+  
+  /*Fifth paragraph-REEL*/
+  /*Fifth image block*/
+  #REEL {
+    display: flex;
+    flex-flow: row wrap;
+    background-image: url("https://imgur.com/PZnAO8B.jpeg");
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  #REEL h2 {
+    color: white;
+    padding-top: 15px;
+    margin-left: 10px;
+    font-size: 40px;
+    padding-left: 270px;
+  }
+  #REEL p {
+    color: white;
+    padding-left: 280px;
+    font-size: 18px;
+  }
+  #REEL a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #REEL a:hover {
+    color: green;
+  }
+  #unique a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+  }
+  #unique a:hover {
+    color: green;
+  }
+  .row5::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row5 {
+    padding-left: 270px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .column5 {
+    float: left;
+    width: 27.45%;
+    padding: 0 10px 10px 10px;
+    height: auto;
+  }
+  #REEL h4 {
+    background: white;
+    padding: 5px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  #Second-image h4 {
+    padding-bottom: 25px;
+  }
+  #Second-image a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+  }
+  #Second-image a:hover {
+    color: green;
+  }
+  #Third-image a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+  }
+  #Third-image a:hover {
+    color: green;
+  }
+  /*End of Fifth image block*/
+  
+  /*End of Fifth paragraph*/
+  
+  /*Sixth paragraph- Editor's Picks*/
+  
+  /*Sixth image block*/
+  #editor-picks {
+    display: flex;
+    padding-left: 10px;
+  }
+  #section-name h2 {
+    font-family: 'Poppins',sans-serif;
+    margin-top: 30px;
+    margin-left: 265px;
+  }
+  #editor-picks img {
+    margin-top: 15px;
+    width: 148%;
+  }
+  #business-news h3 {
+    background: #e91802;
+    color: white;
+    padding: 5px 10px 5px 10px;
+  }
+  #business-news li {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 15px;
+    color: white;
+    padding-bottom: 30px;
+  }
+  .style {
+    background: #4e4847;
+  }
+  #business-news {
+    width: 25%;
+    margin-left: 280px;
+    margin-top: 10px;
+  }
+  #business-news li:before{
+    content: "\1F195";
+    padding-right: 10px;
+  }
+  #business-news a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #business-news a:hover {
+    color: green;
+  }
+  .banner5 {
+    position: relative;
+    width: 38.3%;
+    margin: 0;
+  }
+  .heading5 {
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    padding-bottom: 50px;
+    text-align: left;
+    font-size: 22px;
+  }
+  #heading-class2 a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #heading-class2 a:hover {
+    color: green;
+  }
+  #figcaption-link2 a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #figcaption-link2 a:hover {
+    color: green;
+  }
+  .banner5 figcaption {
+    position: absolute;
+    font-size: 18px;
+    width: 250%;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding-left: 15px;
+    padding-bottom: 190px;
+  }
+  #image-box2 {
+    margin-top: 10px;
+    padding-left: 5px;
+  }
+  .column6 {
+    float: left;
+    width: 18.25%;
+    padding: 5px;
+    height: auto;
+  }
+  .row6::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #image-box2 a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #image-box2 a:hover {
+    color: green;
+  }
+  #image-box2 h4 {
+    font-weight: normal;
+  }
+  #image-box2, #image-box3 {
+    padding-bottom: 10px;
+  }
+  .column7 {
+    float: left;
+    width: 18.25%;
+    padding: 5px;
+    height: auto;
+  }
+  .row7::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #image-box3 a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #image-box3 a:hover {
+    color: green;
+  }
+  #image-box3 h4 {
+    font-weight: normal;
+    padding-bottom: 1px;
+  }
+  #image-box3 {
+    padding-left: 5px;
+    padding-bottom: 30px;
+  }
+  #region h3, h4 {
+    background: #E5E4E2;
+  }
+  #films h3, h4 {
+    background: #E5E4E2;
+  }
+  #material h3, h4 {
+    background: #E5E4E2;
+  }
+  #quiz h3, h4 {
+    background: #E5E4E2;
+  }
+  #dementia h3, h4 {
+    background: #E5E4E2;
+  }
+  #doctors h3, h4 {
+    background: #E5E4E2;
+  }
+  /*End of Sixth image block*/
+  
+  /*End of Sixth paragraph-Editor's Picks*/
+  
+  /*Seventh paragraph-Future Planet*/
+  /*Seventh image block*/
+  #Future-Planet {
+    display: flex;
+    flex-flow: row wrap;
+    background-image: url("https://imgur.com/kkRmj0v.jpeg");
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  #Future-Planet h2 {
+    color: white;
+    padding-top: 15px;
+    margin-left: 10px;
+    font-size: 25px;
+    padding-left: 270px;
+  }
+  #Future-Planet p {
+    color: white;
+    padding-top: 5px;
+    padding-left: 280px;
+    font-size: 18px;
+  }
+  #Future-Planet a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #Future-Planet a:hover {
+    color: green;
+  }
+  #unique2 a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+  }
+  #unique2 a:hover {
+    color: green;
+  }
+  .row8::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row8 {
+    padding-left: 270px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .column8 {
+    float: left;
+    width: 27.45%;
+    padding: 0 10px 10px 10px;
+    height: auto;
+  }
+  #Future-Planet h4 {
+    background: white;
+    padding: 5px;
+    text-align: left;
+    font-size: 18px;
+  }
+  #Second-image2 a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #Second-image2 a:hover {
+    color: green;
+  }
+  #Third-image2 a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+  }
+  #Third-image2 a:hover {
+    color: green;
+  }
+  #Future-Planet h4 {
+    font-weight: normal;
+  }
+  /*End of Seventh image block*/
+  
+  /*End of Seventh paragraph-Future Planet*/
+  
+  /*Eighth paragraph-TECHNOLOGY OF BUSINESS & 50 REASONS TO LOVE THE WORLD*/
+  /*Eighth image block*/
+  #Technology a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #Technology a:hover {
+    color: green
+  }
+  #Second-Heading a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #Second-Heading a:hover {
+    color: green;
+  }
+  #Second-Heading h2 {
+    padding-top: 30px;
+  }
+  #World a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #World a:hover {
+    color: green;
+  }
+  #living a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #living a:hover {
+    color: green;
+  }
+  #Heading a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #Heading a:hover {
+    color: green;
+  }
+  #Heading {
+    padding-top: 30px;
+  }
+  #Heading h2 {
+    margin-left: 264px;
+  }
+  #Technology h3 {
+    margin-top: 5px;
+    margin-left: 275px;
+    width: 200%;
+  }
+  #World h2 {
+    margin-top: 10px;
+    margin-left: 264px;
+  }
+  #living h3 {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    margin-left: 270px;
+    margin-bottom: 5px;
+    width: 200%;
+  }
+  #Technology img {
+    margin-left: 274px;
+    width: 237%;
+  }
+  #Technology {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  #living img {
+    width: 163%;
+    margin-left: 274px;
+  }
+  #Second-Heading h2 {
+    margin-left: 264px;
+  }
+  /*End of Eighth image block*/
+  
+  /*End of Eighth paragraph*/
+  
+  /*Ninth paragraph-Featured video*/
+  .row9 {
+    margin: 0;
+    padding: 0;
+  }
+  .banner6 {
+    position: relative;
+    width: 90%;
+    margin: 0;
+    height: auto;
+  }
+  .banner6 img {
+    width: 95%;
+  }
+  .video-heading {
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    position: absolute;
+    padding-left: 36px;
+    padding-top: 170px;
+    top: 50%;
+  }
+  .video-figcaption {
+    position: relative;
+  }
+  .video-figcaption figcaption {
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    position: absolute;
+    padding-bottom: 365px;
+    padding-left: 36px;
+    bottom: 0;
+    left: 0;
+  }
+  #Dogs a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #Dogs a:hover {
+    color: green;
+  }
+  #video-title {
+    font-family: 'Poppins',sans-serif;
+    padding-top: 20px;
+    margin-left: 270px;
+  }
+  #Dogs {
+    margin-left: 280px;
+  }
+  #info-panel ul {
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    padding: 15px;
+    background: #4e4847;
+    border-bottom: 2px solid gray;
+  }
+  #info-panel li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #info-panel {
+    width: 85.5%;
+  }
+  #info-panel ul li a:hover:after {
+    width: 100%;
+  }
+  #mini-article {
+    display: flex;
+    flex-flow: row wrap;
+    background: #4e4847;
+  }
+  #mini-article img {
+    width: 85%;
+  }
+  .column9 {
+    float: left;
+    width: 27.45%;
+    padding: 5px;
+    height: auto;
+  }
+  .row10::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row10 {
+    padding-left: 20px;
+  }
+  #mini-article h3 {
+    font-size: 18px;
+  }
+  #dogs h3 {
+    width: 80%;
+  }
+  #old-chap h3 {
+    width: 80%;
+  }
+  /*End of Ninth paragraph*/
+  
+  /*Simple content block*/
+  #content-block {
+    margin-top: 30px;
+    margin-left: 280px;
+    background: #4e4847;
+    display: flex;
+    width: 73%;
+  }
+  #BBC-service li {
+    list-style-type: none;
+    font-weight: bold;
+    justify-content: left;
+    padding: 10px;
+    background: #e91802;
+  }
+  #on-air li {
+    list-style-type: none;
+    justify-content: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
+  }
+  #on-air li:before {
+    content: "\01F50A";
+    padding-right: 10px;
+  }
+  #content-block a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #content-block a:hover {
+    color: green;
+  }
+  /*End of Simple content block*/
+  
+  /*Tenth paragraph- More around the BBC*/
+  /*Tenth image block*/
+  #More-BBC {
+    margin-left: 280px;
+  }
+  .banner7 {
+    position: relative;
+    width: 90%;
+    margin: 0;
+  }
+  .banner7 a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  .banner7 a:hover {
+    color: green;
+  }
+  .heading6 {
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    padding-bottom: 50px;
+    text-align: left;
+    font-size: 22px;
+  }
+  #heading-class3 a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #heading-class3 a:hover {
+    color: green;
+  }
+  #figcaption-link3 a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #figcaption-link3 a:hover {
+    color: green;
+  }
+  .banner7 figcaption {
+    position: absolute;
+    font-size: 18px;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding-left: 15px;
+    padding-bottom: 300px;
+  }
+  #image-box4 {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 265px;
+  }
+  .column10 {
+    float: left;
+    width: 28%;
+    padding: 5px;
+    height: auto;
+  }
+  .row11::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #image-box4 a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #image-box4 a:hover {
+    color: green;
+  }
+  #More-BBC {
+    margin-top: 40px;
+  }
+  .banner7 img {
+    width: 95.3%;
+  }
+  
+  .row12::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column11 {
+    float: left;
+    width: 28%;
+    padding: 5px;
+    height: auto;
+  }
+  #image-box4 h3 {
+    background: white;
+    padding: 5px;
+    text-align: left;
+  }
+  #image-box5 h3 {
+    background: white;
+    padding: 5px;
+    text-align: left;
+  }
+  #revolution h3 {
+    padding-bottom: 26px;
+  }
+  #France h3 {
+    padding-bottom: 26px;
+  }
+  #image-box5 a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #image-box5 a:hover {
+    color: green;
+  }
+  #lockdown h3 {
+    background: #E5E4E2;
+  }
+  #song h3 {
+    background: #E5E4E2;
+  }
+  #tech-brands h3 {
+    background: #E5E4E2;
+  }
+  #revolution h3 {
+    background: #E5E4E2;
+  }
+  #France h3 {
+    background: #E5E4E2;
+  }
+  #career h3 {
+    background: #E5E4E2;
+  }
+  #More-title {
+    font-family: 'Poppins',sans-serif;
+    margin-top: 30px;
+    margin-left: 270px;
+  }
+  #i-panel {
+    margin-top: 10px;
+    margin-left: 279px;
+    background: #4e4847;
+    padding-bottom: 20px;
+    width: 30%;
+  }
+  #image-box5 {
+    margin-left: 275px;
+  }
+  #i-panel h3 {
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    background: #e91802;
+    padding: 10px;
+  }
+  #i-panel ul li {
+    list-style-type: none;
+    color: white;
+    padding: 20px;
+  }
+  #i-panel a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #i-panel a:hover {
+    color: green;
+  }
+  #i-panel ul span {
+    font-style: italic;
+    color: white;
+    font-family: "Georgia",Times,serif;
+    padding-left: 30px;
+  }
+  #image-box4 {
+    margin-left: 275px;
+  }
+  /*End of Tenth image block*/
+
+  /*End of Tenth paragraph*/
+
+  /*Eleventh paragraph*/
+  #economy_title {
+    margin-left: 265px;
+  }
+  #collective_title {
+    margin-left: 265px;
+  }
+  #economy {
+    padding-left: 280px;
+    width: 85%;
+  }
+  #collective {
+    padding-left: 280px;
+    width: 82%;
+  }
+  .banner8 {
+    position: relative;
+    width: 81%;
+    margin: 0;
+  }
+  .banner8 a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  .banner8 a:hover {
+    color: green;
+  }
+  .heading7 {
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    padding-bottom: 50px;
+    text-align: left;
+    font-size: 22px;
+  }
+  #heading-class4 a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #heading-class4 a:hover {
+    color: green;
+  }
+  .banner9 {
+    position: relative;
+    width: 84%;
+    margin: 0;
+  }
+  .banner9 a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  .banner9 a:hover {
+    color: green;
+  }
+  .heading8 {
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    padding-bottom: 50px;
+    text-align: left;
+    font-size: 22px;
+  }
+  #heading-class5 a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #heading-class5 a:hover {
+    color: green;
+  }
+  #economy_title a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #economy_title a:hover {
+    color: green;
+  }
+  #collective_title a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #collective_title a:hover {
+    color: green;
+  }
+  #economy_title h2 {
+    margin-top: 20px;
+  }
+  #first-one {
+    width: 50%;
+  }
+  #second-one {
+    width: 50%;
+  }
+  /*End of Eleventh paragraph*/
+
+  /*Twelfth paragraph-World in pictures*/
+  #new-heading h2 {
+    margin-left: 266px;
+  }
+  #heading-class6 a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #heading-class6 a:hover {
+    color: green;
+  }
+  .heading9 {
+    color: white;
+    position: absolute;
+    width: 50%;
+    top: 1010%;
+    padding-bottom: 150px;
+    text-align: left;
+    font-size: 22px;
+  }
+  #heading-class7 a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #heading-class7 a:hover {
+    color: green;
+  }
+  .heading10 {
+    color: white;
+    position: absolute;
+    width: 50%;
+    top: 1065%;
+    padding-bottom: 150px;
+    text-align: left;
+    font-size: 22px;
+  }
+  #world-in-pictures {
+    margin-left: 280px;
+  }
+  #image-1 {
+    width: 94.5%;
+  }
+  #image-2 {
+    width: 94.5%;
+  }
+  #new-heading h2 a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #new-heading h2 a:hover {
+    color: green;
+  }
+  .column12 {
+    float: left;
+    width: 28%;
+    padding: 5px;
+    height: auto;
+  }
+  .row13::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #astronomy a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #astronomy a:hover {
+    color: green;
+  }
+  #fans a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #fans a:hover {
+    color: green;
+  }
+  #pollution a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #pollution a:hover {
+    color: green;
+  }
+  #astronomy h3 {
+    background: #E5E4E2;
+  }
+  #fans h3 {
+    background: #E5E4E2;
+  }
+  #pollution h3 {
+    background: #E5E4E2;
+  }
+  /*End of Twelfth paragraph*/
+
+  /*End of Article*/
+
+  /*Thirtheenth paragraph- BBC IN OTHER LANGUAGES*/
+  #languages-heading h2 {
+    margin-top: 40px;
+    margin-left: 270px;
+  }
+  #languages {
+    margin-left: 280px;
+    margin-top: 10px;
+    max-width: 800px;
+  }
+  #languages li {
+    list-style: none;
+    text-decoration: none;
+  }
+  #languages a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #languages a:hover {
+    color: green;
+  }
+  #languages-heading h2 a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  #languages-heading h2 a:hover {
+    color: green;
+  }
+
+  .language_headline_russian {
+    box-sizing: inherit;
+  }
+  .title_headline_russian {
+    box-sizing: inherit;
+  }
+  .language_headline_spanish {
+    box-sizing: inherit;
+  }
+  .title_headline_spanish {
+    box-sizing: inherit;
+  }
+  .language_headline_persian {
+    box-sizing: inherit;
+  }
+  .title_headline_persian {
+    box-sizing: inherit;
+  }
+  .language_headline_portuguese {
+    box-sizing: inherit;
+  }
+  .title_headline_portuguese {
+    box-sizing: inherit;
+  }
+  
+  #headline_russian {
+    box-sizing: border-box;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 17%;
+  }
+  #headline_spanish {
+    box-sizing: border-box;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 17%;
+  }
+  #headline_persian {
+    box-sizing: border-box;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 17%;
+  }
+  #headline_portuguese {
+    box-sizing: border-box;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 17%;
+  }
+  .parent {
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 24%;
+  }
+  #urdu {
+    width: 100%;
+  }
+  #burmese {
+    width: 100%;
+  }
+  .child {
+    box-sizing: border-box;
+  }
+  #uzbek {
+    padding-bottom: 30px;
+  }
+  /*End of Thirtheenth paragraph*/
+
+  /*Footer*/
+  #BBC {
+    display: flex;
+    flex-flow: row wrap;
+    width: 85.8%;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 270px;
+    background: #4c4c4c;
+  }
+  #BBC ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  #BBC li {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+    width: 12%;
+  }
+  #BBC-title {
+    display: flex;
+    font-family: 'Poppins',sans-serif;
+    padding-top: 30px;
+    padding-left: 263px;
+    width: 86.2%;
+    background: #4c4c4c;
+    color: white;
+  }
+  #BBC li a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #BBC li a:hover {
+    color: green;
+  }
+
+  #info {
+    background: #4c4c4c;
+    padding-left: 269px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  #info ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    padding-bottom: 20px;
+  }
+  #info li a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #info li a:hover {
+    color: green;
+  }
+  #info li {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+  }
+  small {
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  #info span a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+  }
+  #info span a:hover {
+    color: green;
+  }
+  #info span {
+    color: white;
+    font-family: 'Poppins',sans-serif;
+  }
+  #info {
+    padding-bottom: 10px;
+  }

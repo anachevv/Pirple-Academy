@@ -1,0 +1,154 @@
+HTML:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>V for Vendetta</title>
+</head>
+<body>
+  <!--Navigation-->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#About-novel">About the novel</a></li>
+      <li><a href="#About-film">About the film</a></li>
+      <li><a href="#Starring">Starring</a></li>
+      <li><a href="#Trailer">Trailer</a></li>
+      <li><a href="#SoundTrack">SoundTrack</a></li>
+      <li><a href="#Conclusion">Conclusion</a></li>
+  <!--Title-->
+  <section>
+  <h1><p>V for Vendetta</h1></p>
+  <li><img src="https://imgur.com/0pwwMPj.jpg"alt="V for Vendetta"</li>
+      </section>
+    <!--First paragraph-About the short story-->
+    <section id="About-novel">
+    <h2><p>About the short story</h2></p>
+  <li><b>V for Vendetta</b> is a British graphic novel written by Alan Moore and illustrated by David Lloyd (with additional art by Tony Weare), 
+    initially published in <time datetime="1982">1982</time>. 
+    The comics follow the story's title character and protagonist, <b>V</b>, an anarchist revolutionary 
+    dressed in a Guy Fawkes mask, as he begins an elaborate and theatrical revolutionist campaign to kill his 
+    former captors, bring down the fascist state, and convince the people to abandon fascism in favour of 
+    anarchy, while inspiring a young woman, Evey Hammond, to be his protégée.</li>
+<li><img src="https://imgur.com/789KXT4.jpg"alt="V for Vendetta comic book"</li>
+    </section>
+  <!--Second paragraph-About the film-->
+  <section id="About-film">
+  <h2><p>About the film</h2></p>
+<li><b>V for Vendetta</b> is based on the novel written by Alan Moore. 
+  The film is a <time datetime="2005">2005</time> dystopian political action film directed by 
+  James McTeigue and written by the Wachowskis. It is set in an alternative future where a Nordic supremacist 
+  and neo-fascist totalitarian regime has subjugated the United Kingdom. It centres on <b>V</b> 
+  (portrayed by Hugo Weaving), an anarchist and masked freedom fighter who attempts to ignite 
+  a revolution through elaborate terrorist acts, and Evey Hammond (portrayed by Natalie Portman) 
+  a young, working-class woman caught up in <b>V</b>'s mission. Stephen Rea portrays a detective 
+  leading a desperate quest to stop <b>V</b>.</li>
+<li><img src="https://imgur.com/Y1QYgMV.jpg"alt="V for Vendetta"</li>
+<li><img src="https://imgur.com/1XqnwbI.jpg"alt="V for Vendetta"</li>
+  </section>
+<!--Subtitle of second paragraph-Starring-->
+  <section id="Starring">
+<h3><p>Starring</h3></p>
+<ul>
+  <li>Natalie Portman - "Evey Hammond" </li>
+  </ul>
+  <ul>
+    <li>Hugo Weaving - "V / William Rookwood"</li>
+  </ul>
+  <ul>
+    <li>Stephen Rea - "Chief Inspector Eric Finch"</li>
+  </ul>
+  <ul>
+    <li>Stephen Fry - "Gordon Deitrich"</li>
+  </ul>
+  <ul>
+    <li>John Hurt - "Chancellor Adam Sutler"</li>
+  </ul>
+  <ul>
+    <li>Tim Pigott-Smith - "Creedy"</li>
+  </ul>
+  </section>
+<!--Subtitle of second paragraph-Trailer-->
+<section id="Trailer">
+  <h3><p>Trailer</h3></p>
+  <video width="600" controls>
+  <source src="trailer.mp4" type="video/mp4">
+  <source src="trailer.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+    <li>If the video cannot be played, try to play it by clicking <a href="https://www.youtube.com/watch?v=lSA7mAHolAw"><button>here.</button></a></li>
+</video>
+</section>
+<!--Subtitle of second paragraph-Soundtrack-->
+<section id="SoundTrack">
+  <h3><p>SoundTrack</p></h3>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=fO6Ynxg5H9M&list=PLFB03815DD8297F7E">SoundTrack 01</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=wFymXjdXOCw&list=PLFB03815DD8297F7E&index=2">SoundTrack 02</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=8lqmQcgU-yU&list=PLFB03815DD8297F7E&index=3">SoundTrack 03</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=KItu3rkrTcQ&list=PLFB03815DD8297F7E&index=4">SoundTrack 04</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=FBGWHoIhGVk&list=PLFB03815DD8297F7E&index=5">SoundTrack 05</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=68P_VD5VWTM&list=PLFB03815DD8297F7E&index=6">SoundTrack 06</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=fjzQpxLPop0&list=PLFB03815DD8297F7E&index=7">SoundTrack 07</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=BjgTFd6XAg8&list=PLFB03815DD8297F7E&index=8">SoundTrack 08</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=-IZl-FkxT7k&list=PLFB03815DD8297F7E&index=9">SoundTrack 09</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=rC0anNugVfs&list=PLFB03815DD8297F7E&index=10">SoundTrack 10</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=p_rEnuMeVM8&list=PLFB03815DD8297F7E&index=11">SoundTrack 11</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=A05vB1eyQ2Q&list=PLFB03815DD8297F7E&index=12">SoundTrack 12</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=NCMDzhj5FIQ&list=PLFB03815DD8297F7E&index=13">SoundTrack 13</a></li>
+  </ul>
+</section>
+<!--Conclusion(End)-->
+<section id="Conclusion">
+  <h2><li>I hope you watch "V for Vendetta", if you haven't yet. Worth it!</li></h2>
+<h2><li>What do you think about the film? Do you like it? Let me know what you think about it.</li></h2>
+<textarea rows="10" cols="50">Tell me what you think about "V for Vendetta".</textarea>
+</section>
+</body>
+</html>
+
+
+CSS:
+
+body {
+  background-color: orange;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}

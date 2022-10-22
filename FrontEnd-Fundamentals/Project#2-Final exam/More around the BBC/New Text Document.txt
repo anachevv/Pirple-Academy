@@ -1,0 +1,78 @@
+HTML:
+
+         <section id="More-title">
+                    <h2>More around the BBC</h2>
+                  </section>
+                  <section id="More-BBC" class="article">
+                    <div id="i-panel" class="column10">
+                      <h3>FROM OUR CORRESPONDENTS</h3>
+                      <ul>
+                        <li><a href="#">How to handle the China Communist Party at 100</a></li>
+                        <span>By John Sudworth</span>
+                      </ul>
+                      <ul>
+                        <li><a href="#">Flying car completes test flight between airports</a></li>
+                        <span>By Zoe Kleinman</span>
+                      </ul>
+                      <ul>
+                        <li><a href="#">Amazon eagle faces starvation in 'last stronghold'</a></li>
+                        <span>By Hellen Briggs</span>
+                      </ul>
+                      <ul>
+                        <li><a href="#">Nissan investment to create thousands of UK jobs</a></li>
+                        <span>By Simon Jack</span>
+                      </ul>
+                      <ul>
+                        <li><a href="#">Wuhan lab-leak theory fuels Trump comeback raily</a></li>
+                        <span>By Tara McKelvey</span>
+                      </ul>
+                      <ul>
+                        <li><a href="#">Astronomers work out when the first stars shone</a></li>
+                        <span>By Pallab Ghosh</span>
+                      </ul>
+                      <ul>
+                        <li>Microsoft unveils Windows 11</li>
+                        <span>By Zoe Kleinman</span>
+                      </ul>
+                      <ul>
+                        <li>Will a deadlier third Covid wave hit India?</li>
+                        <span>By Vikas Pandey</span>
+                      </ul>
+                    </div>
+                  </section>
+CSS:
+
+#More-title {
+  margin-top: 30px;
+}
+#i-panel {
+  margin-top: 10px;
+  background: #4e4847;
+  padding-bottom: 20px;
+}
+#i-panel h3 {
+  color: white;
+  font-family: 'Poppins',sans-serif;
+  background: #e91802;
+  padding: 10px;
+}
+#i-panel ul li {
+  list-style-type: none;
+  color: white;
+  padding: 20px;
+}
+#i-panel a {
+  position: relative;
+  text-decoration: none;
+  font-family: 'Poppins',sans-serif;
+  color: white;
+}
+#i-panel a:hover {
+  color: green;
+}
+#i-panel ul span {
+  font-style: italic;
+  color: white;
+  font-family: "Georgia",Times,serif;
+  padding-left: 30px;
+}

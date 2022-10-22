@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,inital-scale=1.0">
+  <title>BBC - Homepage</title>
+</head>
+<body>
+  <link rel="stylesheet" href="css.css">
+  <link:js></link:js>
+    <script src="javascript.js"></script>
+  <!--Navigation bar-->
+  <nav>
+    <ul>
+      <img id="BBC-logo" src="https://imgur.com/IquRLUZ.jpg" alt="img" width="7%" height="23%;" />
+      <li id="sign-in" class="a"><a href="#">Sign in</a></li>
+      <li id="home" class="a"><a href="#">Home</a></li>
+      <li id="news" class="a"><a href="#">News</a></li>
+      <li id="sport" class="a"><a href="#">Sport</a></li>
+      <li id="reel" class="a"><a href="#">Reel</a></li>
+      <li id="worklife" class="a"><a href="#">Worklife</a></li>
+      <li id="travel" class="a"><a href="#">Travel</a></li>
+      <li id="future" class="a"><a href="#">Future</a></li>
+      <li id="culture" class="a"><a href="#">Culture</a></li>
+      <li id="more" class="a"><a href="#">More</a></li>
+      <img id="More-logo" src="https://imgur.com/glVQ9Lk.jpg" alt="img" width="2%;" height="7%" />
+      <div class="search-box">
+        <input class="search-txt" type="text" name="" placeholder="Search">
+        <a class="search-btn" href="#"></a>
+      </div>
+    </ul>
+  </nav>
+  
+  <!--Article-->
+  <article>
+    <!--Introduction heading-->
+    <h2><div id="Introduction" class="article">Welcome to BBC.com</div></h2>
+    <h2><div id="output" class="article"></div></h2>
+    <!-- Current date -->
+    <script>
+    var today = new Date();
+    var day = today.getDate();
+    var months = [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+      ];
+      var now = new Date();
+      var thisMonth = months[now.getMonth()]; // getMonth method returns the month of the date (0-January :: 11-December)
+      var year = today.getFullYear();
+      var out = document.getElementById("output");
+      
+      out.innerHTML = thisMonth + " " + day + ", " + year;
+      </script>
+      <!--First image block-->
+      <div class="article">
+        <div class="row">
+          <div class="banner">
+            
+            <div id="first-image" class="column">
+              <a href="#">
+                <img src="https://imgur.com/0SwHPIG.jpg" alt="img" width="100%;" />
+              </a>
+              <div id="heading-class">
+                <a href="#">
+                  <h2 class="heading">Twenty missing as landslide hits Japanese city</h2>
+                </a>
+              </div>
+              <div id="figcaption-link">
+                <a href="#">
+                  <figure class="banner">
+                    <figcaption>The government is dispatching an emergency task force to the area around Atami, which has seen heavy rain.</figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <section id="image-box">
+
+            <div class="column1">
+              <div class="banner1">
+                <a href="#">
+                  <img src="https://imgur.com/Tns5RH2.jpg" alt="img" width="100%;" />
+                </a>
+                <div id="demolition">
+                  <a href="#">
+                    <h2 class="heading1">Demolition of Miami site brought forward</h2>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <div id="euro-2020" class="column1">
+              <div class="banner2">
+                <a href="#">
+                  <img src="https://imgur.com/sKEdMHc.jpg" alt="img" width="100%;" />
+                  <h2 class="heading2">Euro 2020: Reaction as Denmark beat Czech Republic to reach semi-finals</h2>
+                </a>
+              </div>
+            </div>
+            
+            <div id="swedish-stores" class="column1">
+              <div class="banner3">
+                <a href="#">
+                  <img src="https://imgur.com/msoHgVq.jpg" alt="img" width="100%;" />
+                  <h2 class="heading3">Swedish Coop stores shut due to huge cyber-attack</h2>
+                </a>
+              </div>
+            </div>
+        
+        <div id="Ukraine-England" class="column1">
+          <div class="banner4">
+            <a href="#">
+          <img src="https://imgur.com/nRH6IN9.jpg" alt="img" width="100%;" />
+            <h2 class="heading4">Watch: Ukraine v England in Euro 2020 quarters - Sancho starts for Three Lions</h2>
+            </a>
+        </div>
+        </div>
+      </section>
+    </div>
+  </div>
+    <!--Second image block-->
+    <section id="News" class="article">
+      <h2><a href="#">News</a></h2>
+      <div class="row2">
+
+        <div id="Vatican" class="column2">
+          <a href="#">
+          <img src="https://imgur.com/FpQEqdd.jpeg" alt="img" width="100%;" />
+          <h3>Vatican orders cardinal to face embezzlement trial</h3>
+          <h4>Angelo Becciu, a former aide to the Pope, is among 10 people a Vatican judge says must stand trial.</h4>
+          </a>
+        </div>
+        
+        <div id="high-heel" class="column2">
+          <a href="#">
+          <img src="https://imgur.com/qsjcuqO.jpeg" alt="img" width="100%;" />
+          <h3>Ukraine plans for high-heel parade spark outrage</h3>
+          <h4>The military wants women soldiers to march in heels rather than army boots on independence day.</h4>
+          </a>
+        </div>
+        
+        <div id="Migrant-boat" class="column2">
+          <a href="#">
+          <img src="https://imgur.com/RTTEFTm.jpeg" alt="img" width="100%;" />
+          <h3>Migrant boat sinks off Tunisia drowning 43</h3>
+          <h4>Another 84 migrants were rescued after their boat capsized in a bid to sail from Libya to Europe.</h4>
+          </a>
+        </div>
+      </div>
+    </section>
+      <!--Third image block-->
+      <section id="Sport" class="article">
+        <h2><a href="#">Sport</a></h2>
+        <div class="row3">
+
+          <div id="Denmark" class="column3">
+            <a href="#">
+            <img src="https://imgur.com/MjmhJMR.jpeg" alt="img" width="100%;" />
+            <h3>Denmark beat Czechs to reach last four</h3>
+            <h4>Denmark's impressive and emotional Euro 2020 compaign continues as they march on to the semi-finals courtesy of a victory over the Czech Republic in Baku.</h4>
+            </a>
+          </div>
+          
+          <div id="Wimbledon" class="column3">
+            <a href="#">
+          <img src="https://imgur.com/O9qOvI0.jpeg" alt="img" width="100%;" />
+          <h3>Wimbledon: Barty wraps up first set against Siniakova - video, radio and text</h3>
+          <h4>Watch live coverage and follow text updates, radio and in-play clips from day six at Wimbledon 2021.</h4>
+            </a>
+          </div>
+          
+          <div id="Verstappen" class="column3">
+            <a href="#">
+            <img src="https://imgur.com/s7CNEOT.jpeg" alt="img" width="100%;" />
+            <h3>Verstappen on pole with Norris second</h3>
+            <h4>Red Bull's Max Verstappen takes pole position at the Austrian Grand Prix with McLaren's Lando Norris in a stunning second place.</h4>
+            </a>
+          </div>
+        </div>
+    </section>
+    
+    <!--Fourth image block-->
+        <section id="Weekend-Reads" class="article">
+          <h2>WEEKEND READS</h2>
+          <div class="row4">
+
+            <div id="air-rage" class="column4">
+              <a href="#">
+              <img src="https://imgur.com/keZBQGy.jpeg" alt="img" width="100%;" />
+              <h3>The 'air rage' spike on US flights</h3>
+              <h4>Explaining the dramatic increase in unruly, violent incidents on planes.</h4>
+              </a>
+            </div>
+            
+            <div id="mystery" class="column4">
+              <a href="#">
+              <img src="https://imgur.com/wXYD8o0.jpeg" alt="img" width="100%;" />
+              <h3>An ancient Roman mystery solved</h3>
+              <h4>It was said to be the location of a portal to the underworld.</h4>
+              </a>
+            </div>
+            
+            <div id="Australian-tree" class="column4">
+              <a href="#">
+              <img src="https://imgur.com/5IBfDEm.jpeg" alt="img" width="100%;" />
+              <h3>The Australian tree boosting Brazilian beef</h3>
+              <h4>The eucalyptus tree is a boon for both cows and climate.</h4>
+              </a>
+            </div>
+          </div>
+    </section>
+    <!--Fifth image block-->
+    <section id="REEL">
+
+      <div id="REEL_title">
+        <h2><a href="#">REEL</a></h2>
+        <p>The most amazing videos from the BBC</p>
+      </div>
+      
+      <div class="row5">
+
+        <div class="column5">
+          <div id="unique">
+            <a href="#">
+              <img src="https://imgur.com/a8ikhKf.jpeg" alt="img" width="100%;" />
+              <h4>The forgotten wealth of an ancient kingdom still 'dripping in gold' today</h4>
+            </a>
+          </div>
+        </div>
+              
+        <div id="Second-image" class="column5">
+          <a href="#">
+          <img src="https://imgur.com/1J1N19G.jpeg" alt="img" width="100%;" />
+          <h4>How women can smell if a man is single</h4>
+          </a>
+        </div>
+        
+        <div id="Third-image" class="column5">
+          <a href="#">
+          <img src="https://imgur.com/nng48ku.jpeg" alt="img" width="100%;" />
+          <h4>Siberia's exploding earth mystery that has scientists worried</h4>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <div id="section-name">
+    <h2>Editor's Picks</h2>
+    </div>
+
+    <!--Sixth image block-->
+    <section id="editor-picks" class="article">
+      <div class="banner5">
+        <a href="#">
+        <img src="https://imgur.com/1ay1C8y.jpeg" alt="img" width="100%;" />
+        </a>
+        <div id="heading-class2">
+          <a href="#">
+            <h2 class="heading5">Why so many people are quitting jobs</h2>
+          </a>
+        </div>
+        <div id="figcaption-link2">
+          <a href="#">
+            <figure class="banner5">
+              <figcaption>One of the major driving factors behind the 'Great Resignation'</figcaption>
+            </figure>
+          </a>
+        </div>
+        </div>
+        </section>
+
+      <section id="business-news" class="style">
+        <h3>LATEST BUSINESS NEWS</h3>
+        <ul>
+          <li><a href="#">US jobs growth picks up speed amid reopening</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Vauxhail set to build electric van at Ellesmere Port</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">What these new codes in supermarkets will mean</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">'It's like Endgame...where everyone just disappears'</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Richard Branson sets 11 July to make spaceflight</a></li>
+          </ul>
+      </section>
+      <!--Seventh image block-->
+      <section id="image-box2" class="article">
+        <div class="row6">
+
+          <div id="region" class="column6">
+            <a href="#">
+              <img src="https://imgur.com/R5kJaeZ.jpeg" alt="img" width="100%;" />
+              <h3>A region barely touched by time</h3>
+              <h4>It was once an important route for merchants travelling along the Silk Road</h4>
+            </a>
+          </div>
+          
+          <div id="films" class="column6">
+            <a href="#">
+              <img src="https://imgur.com/OYn4FeC.jpeg" alt="img" width="100%;" />
+              <h3>Ten films to watch in July</h3>
+              <h4>Action, drama - and the latest Marvel's blockbuster</h4>
+            </a>
+          </div>
+          
+          <div id="material" class="column6">
+            <a href="#">
+              <img src="https://imgur.com/wFj8PcB.jpeg" alt="img" width="100%;" />
+              <h3>The material 'too vast to imagine'</h3>
+              <h4>It makes up half of all humain-made things</h4>
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <section id="image-box3" class="article">
+        <div class="row7">
+
+          <div id="quiz" class="column7">
+            <a href="#">
+              <img src="https://imgur.com/7mf14dR.jpeg" alt="img" width="100%;" />
+              <h3>Quiz of the week: Do you know your goalscorers?</h3>
+              <h4>How closely have you been playing attention to the headlines?</h4>
+            </a>
+          </div>
+          
+          <div id="dementia" class="column7">
+            <a href="#">
+              <img src="https://imgur.com/E6FHdrP.jpeg" alt="img" width="100%;" />
+              <h3>What happens to language in onset of dementia?</h3>
+              <h4>For many, the first sign that something's wrong is a change in how they speak</h4>
+            </a>
+          </div>
+          
+          <div id="doctors" class="column7">
+            <a href="#">
+              <img src="https://imgur.com/bXTAANK.jpeg" alt="img" width="100%;" />
+              <h3>The budget ingredient doctors might 'prescribe'</h3>
+              <h4>"If a drug had that kind of result, we'd probably prescribe it", says Dr Rupy Aujla</h4>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--Eighth image block-->
+      <section id="Future-Planet">
+
+        <div id="Future-Planet_title">
+          <h2><a href="#">Future Planet</a></h2>
+          <p>Solutions for a sustainable world</p>
+        </div>
+
+        <div class="row8">
+
+          <div class="column8">
+            <div id="unique2">
+              <a href="#">
+                <img src="https://imgur.com/aBxffNi.jpeg" alt="img" width="100%;" />
+                <h4>Why building is so clean in Scandinavia</h4>
+              </a>
+            </div>
+          </div>
+          
+          <div id="Second-image2" class="column8">
+            <a href="#">
+              <img src="https://imgur.com/xSwv2iE.jpeg" alt="img" width="100%;" />
+              <h4>The idyllic indian beach that vanished</h4>
+            </a>
+          </div>
+          
+          <div id="Third-image2" class="column8">
+            <a href="#">
+              <img src="https://imgur.com/aLk1V84.jpeg" alt="img" width="100%;" />
+              <h4>The powerful new use for cocoa</h4>
+            </a>
+          </div>
+        </div>
+      </section>
+      
+        <div id="Heading">
+          <h2><a href="#">TECHNOLOGY OF BUSINESS</a></h2>
+          </div>
+
+        <section id="Technology">
+          <div class="row9">
+            <div id="airline" class="column9">
+              <a href="#">
+                <img src="https://imgur.com/lscJM5K.jpeg" alt="img" width="100%;" />
+                <h3>How airlines will stop losing your bags in the future</h3>
+              </a>
+            </div>
+          </div>
+        </section>
+        
+        <div id="Second-Heading">
+          <h2><a href="#">50 REASONS TO LOVE THE WORLD</a></h2>
+          </div>
+
+        <section id="World"><div class="row9">
+            <div id="living" class="column9">
+              <a href="#">
+                <img src="https://imgur.com/tk5Q14j.jpeg" alt="img" width="237%;" />
+                <h3>'The poster boy of zero-waste living'</h3>
+              </a>
+            </div>
+          </div>
+        </section>
+      </section>
+        
+        <div id="video-title">
+          <h2>Featured video</h2>
+        </div>
+
+        <section id="Dogs" class="container">
+
+          <div class="row9">
+            <div class="banner6">
+              <a href="https://www.youtube.com/watch?v=RiSImsDN6BE">
+                <img src="https://imgur.com/GctZYLm.jpeg" alt="img" width="100%;" />
+              </a>
+              <a href="#">
+                <h2 class="video-heading">How dogs are helping the Surfside rescue effort</h2>
+              </a>
+            </div>
+          </div>
+          <figure class="video-figcaption">
+            <a href="#">
+              <figcaption>From trauma therapy to search and rescue, these dogs are playing a pivotal role in recovery</figcaption>
+            </a>
+          </figure>
+          
+          <section id="info-panel">
+            <ul>
+              <li><a href="#">Recommended</a></li>
+              <li><a href="#">Most Watched</a></li>
+              <li><a href="#">Latest</a></li>
+            </ul>
+
+            <!--Tenth image block-->
+            <div id="mini-article">
+              <div class="row10">
+
+                <div id="dogs" class="column9">
+                  <a href="#">
+                    <img src="https://imgur.com/GctZYLm.jpeg" alt="img" />
+                    <h3>How dogs are helping the Surfside rescue effort</h3>
+                  </a>
+                </div>
+
+                <div id="forest" class="column9">
+                  <a href="#">
+                    <img src="https://imgur.com/7MMdEoL.jpeg" alt="img" />
+                    <h3>The sacred forest for women only</h3>
+                  </a>
+                </div>
+                
+                <div id="old-chap" class="column9">
+                  <a href="#">
+                    <img src="https://imgur.com/O06uoaW.jpeg" alt="img" />
+                    <h3>'I'm just an ordinary old chap who wanted to fly'</h3>
+                  </a>
+                </div>
+              </div>
+              </div>
+              </section>
+              </section>
+          
+          <section id="content-block">
+
+            <div id="BBC-service">
+              <a href="#">
+              <li>BBC WORLD SERVICE</li>
+              </a>
+            </div>
+            
+            <div id="on-air">
+              <a href="#">
+                <li>ON AIR: <b>The History Hour</b></li>
+              </a>
+            </div>
+          </section>
+
+          <section id="More-title">
+            <h2>More around the BBC</h2>
+          </section>
+
+          <section id="More-BBC" class="article">
+
+            <div class="banner7">
+              <a href="#">
+                <img src="https://imgur.com/DHApXa3.jpeg" alt="img" width="100%;" />
+              </a>
+              <div id="heading-class3">
+                <a href="#">
+                  <h2 class="heading6">Then and now: Arctic sea-ice feeling the heat</h2>
+                </a>
+              </div>
+              <div id="figcaption-link3">
+                <a href="#">
+                  <figure class="banner7">
+                    <figcaption>As Arctic sea-ice melts in a warming world, it causes the world to heat more rapidly.</figcaption>
+                  </figure>
+                </a>
+              </div>
+              </div>
+              </section>
+
+              <!--Eleventh image block-->
+            <section id="image-box4">
+              <div class="row11">
+
+                <div id="lockdown" class="column10">
+                  <a href="#">
+                    <img src="https://imgur.com/4q0fppG.jpeg" alt="img" width="100%;" />
+                    <h3>Half of Australians in lockdown amid vaccine chaos</h3>
+                  </a>
+                </div>
+                
+                <div id="song" class="column10">
+                  <a href="#">
+                    <img src="https://imgur.com/XfIdBFR.jpeg" alt="img" width="100%;" />
+                    <h3>Stars perform musical song in latest vaccine push</h3>
+                  </a>
+                </div>
+                
+                <div id="tech-brands" class="column10">
+                  <a href="#">
+                    <img src="https://imgur.com/zMfj3ng.jpeg" alt="img" width="100%;" />
+                    <h3>Why are Chinese tech brands flocking to Euro 2020?</h3>
+                  </a>
+                </div>
+              </div>
+            </section>
+            <!--Twelfth image block-->
+            <section id="image-box5">
+              <div class="row12">
+                <div id="revolution" class="column11">
+                  <a href="#">
+                    <img src="https://imgur.com/4cyH4oX.jpeg" alt="img" width="100%;" />
+                    <h3>Will UK mining drive a green revolution?</h3>
+                  </a>
+                </div>
+                
+                <div id="France" class="column11">
+                  <a href="#">
+                    <img src="https://imgur.com/fychuuI.jpeg" alt="img" width="100%;" />
+                    <h3>France probes retailers over forced labour claims</h3>
+                  </a>
+                </div>
+                
+                <div id="career" class="column11">
+                  <a href="#">
+                    <img src="https://imgur.com/wEU0DYr.jpeg" alt="img" width="100%;" />
+                    <h3>'I funded my pop career by winning a dating show'</h3>
+                  </a>
+                </div>
+              </div>
+            </section>
+            
+            <div id="i-panel">
+              <h3>FROM OUR CORRESPONDENTS</h3>
+              <ul>
+                <li><a href="#">How to handle the China Communist Party at 100</a></li>
+                <span>By John Sudworth</span>
+              </ul>
+              <ul>
+                <li><a href="#">Flying car completes test flight between airports</a></li>
+                <span>By Zoe Kleinman</span>
+              </ul>
+              <ul>
+                <li><a href="#">Amazon eagle faces starvation in 'last stronghold'</a></li>
+                <span>By Hellen Briggs</span>
+              </ul>
+              <ul>
+                <li><a href="#">Nissan investment to create thousands of UK jobs</a></li>
+                <span>By Simon Jack</span>
+              </ul>
+              <ul>
+                <li><a href="#">Wuhan lab-leak theory fuels Trump comeback raily</a></li>
+                <span>By Tara McKelvey</span>
+              </ul>
+              <ul>
+                <li><a href="#">Astronomers work out when the first stars shone</a></li>
+                <span>By Pallab Ghosh</span>
+              </ul>
+              <ul>
+                <li><a href="#">Microsoft unveils Windows 11</a></li>
+                <span>By Zoe Kleinman</span>
+              </ul>
+              <ul>
+                <li><a href="#">Will a deadlier third Covid wave hit India?</a></li>
+                <span>By Vikas Pandey</span>
+              </ul>
+            </div>
+
+                <div id="economy_title">
+                <h2><a href="#">NEW TECH ECONOMY</a></h2>
+                </div>
+
+                <section id="economy">
+                <div class="banner8">
+                  <a href="#">
+                    <img id="first-one" src="https://imgur.com/3f7sWfw.jpeg" alt="img" width="100%;" />
+                  </a>
+                  <div class="heading-class4">
+                    <a href="#">
+                      <h2 class="heading7">The Amazon sellers selling their businesses for millions</h2>
+                    </a>
+                  </div>
+                </div>
+                </section>
+
+                <div id="collective_title">
+                  <h2><a href="#">CREATIVITY COLLECTIVE</a></h2>
+                  </div>
+                  <div class="banner9">
+
+                    <section id="collective">
+                    <a href="#">
+                      <img id="second-one" src="https://imgur.com/mv8aKme.jpeg" alt="img" />
+                    </a>
+                    <div class="heading-class5">
+                      <a href="#">
+                        <h2 class="heading8">Why fresh faces at work are crucial</h2>
+                      </a>
+                    </div>
+                  </div>
+                  </div>
+                </section>
+
+                <div id="new-heading">
+                  <h2><a href="#">World in pictures</a></h2>
+                </div>
+                
+                <section id="world-in-pictures" class="article">
+                  
+                  <div id="news-pictures">
+                    <a href="#">
+                      <img id="image-1" src="https://imgur.com/LXJ8kcb.jpeg" alt="img" width="100%;" />
+                    </a>
+                    <div class="heading-class6">
+                      <a href="#">
+                        <h2 class="heading9">Striking news pictures from around the world</h2>
+                      </a>
+                    </div>
+                  </div>
+                  
+                  <div id="Africa">
+                    <a href="#">
+                      <img id="image-2" src="https://imgur.com/rKeHVnP.jpeg" alt="img" width="100%;" />
+                    </a>
+                    <div class="heading-class7">
+                      <a href="#">
+                        <h2 class="heading10">Africa's top shots: Painted police and unfazed zebra</h2>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!--Thirtheenth image block-->
+                  <section id="imagebox">
+                    <div class="row13">
+                      
+                      <div id="astronomy" class="column12">
+                        <a href="#">
+                          <img id="astro-image" src="https://imgur.com/W2ehDKJ.jpeg" alt="img" width="100%;" height="255px;" />
+                          <h3>Astronomy photo competition shortlist revealed</h3>
+                        </a>
+                      </div>
+                      
+                      <div id="fans" class="column12">
+                        <a id="3" href="#">
+                          <img id="fans-image" src="https://imgur.com/WdGmP73.jpeg" alt="img" width="100%;" />
+                          <h3>England fans celebrate after win against Germany</h3>
+                        </a>
+                      </div>
+                      
+                      <div id="pollution" class="column12">
+                        <a href="#">
+                          <img id="pollution-image" src="https://imgur.com/9ueYM8L.jpeg" alt="img" width="100%;" />
+                          <h3>Plastic pollution art highlights risk to oceans</h3>
+                        </a>
+                      </div>
+                    
+                    </div>
+                  </section>
+                </section>
+              </article>
+              
+              <div id="languages-heading">
+                <h2><a href="#">BBC IN OTHER LANGUAGES</a></h2>
+              </div>
+              
+              <section id="languages">
+                <ul>
+                  <div id="headline_russian">
+                    <h3><a class="language_headline_russian" dir="ltr" href="#">Russian</a></h3>
+                    <p><a class="title_headline_russian" dir="ltr" href="#">Евро-2020. Четвертьфинал: Дания обыграла Чехию, Англия играет с Украиной</a></p>
+                  </div>
+                  
+                  <div id="headline_spanish">
+                    <h3><a class="language_headline_spanish" dir="ltr" href="#">Spanish</a></h3>
+                    <p><a class="title_headline_spanish" dir="ltr" href="#">"Está el temor de que tu edificio puede ser el siguiente": la creciente preocupación en Miami tras el derrumbe de Surfside (y las consecuencias económicas que provoca)</a></p>
+                  </div>
+                  
+                  <div id="headline_persian">
+                    <h3><a class="language_headline_persian" dir="ltr" href="#">Persian</a></h3>
+                    <p><a class="title_headline_persian" dir="rtl" href="#">نماینده آبادان درباره اعتراضات به بی‌آبی: 'آه مردم خوزستان گیرا است'</a></p>
+                  </div>
+                  
+                  <div id="headline_portuguese">
+                    <h3><a class="language_headline_portuguese" dir="ltr" href="#">Portuguese</a></h3>
+                    <p><a class="title_headline_portuguese" dir="ltr" href="#">MBL e Vem Pra Rua apoiam impeachment de Bolsonaro, mas não vão a protestos de sábado</a></p>
+                  </div>
+                  
+                  <h3><a id="languages_title" href="#">More Languages</a></h3>
+
+                  <section id="title_headlines" class="parent">
+                    
+                    <div id="arabic" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Arabic</span>
+                          <span style="color:#1d6293">عربي</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="chinese" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Chinese</span>
+                          <span style="color:#1d6293">中文网</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="indonesian" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Indonesian</span>
+                          <span style="color:#1d6293">INDONESIA</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="kyrgyz" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Kyrgyz</span>
+                          <span style="color:#1d6293">Кыргыз</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="persian" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Persian</span>
+                          <span style="color:#1d6293">فارسی</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="somali" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Somali</span>
+                          <span style="color:#1d6293">SOMALI</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="turkish" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Turkish</span>
+                          <span style="color:#1d6293">TÜRKÇE</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="vietnamese" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Vietnamese</span>
+                          <span style="color:#1d6293">TIẾNG VIỆT</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="azeri" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Azeri</span>
+                          <span style="color:#1d6293">AZƏRBAYCAN</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="french" class="child">
+                      <li>
+                        <a href="#">
+                          <span>French</span>
+                          <span style="color:#1d6293">AFRIQUE</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="japanese" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Japanese</span>
+                          <span style="color:#1d6293">日本語</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="marathi" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Marathi</span>
+                          <span style="color:#1d6293">मराठी</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="portuguese" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Portuguese</span>
+                          <span style="color:#1d6293">BRASIL</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="spanish" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Spanish</span>
+                          <span style="color:#1d6293">MUNDO</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="ukrainian" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Ukrainian</span>
+                          <span style="color:#1d6293">УКРАЇНСЬКA</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="bangia" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Bangia</span>
+                          <span style="color:#1d6293">বাংলা</span>
+                        </a>
+                      </li>
+                    </div>
+                    
+                    <div id="hausa" class="child">
+                      <li>
+                        <a href="#">
+                          <span>Hausa</span>
+                          <span style="color:#1d6293">HAUSA</span>
+                        </a>
+                      </li>
+                    </div>
+                  
+                  <div id="kinyarwanda" class="child">
+                    <li>
+                      <a href="#">
+                        <span>Kinyarwanda</span>
+                        <span style="color:#1d6293">GAHUZA</span>
+                      </a>
+                    </li>
+                  </div>
+                  
+                  <div id="nepali" class="child">
+                    <li>
+                      <a href="#">
+                        <span>Nepali</span>
+                        <span style="color:#1d6293">नेपाली</span>
+                      </a>
+                    </li>
+                  </div>
+                  
+                  <div id="russian" class="child">
+                    <li>
+                      <a href="#">
+                        <span>Russian</span>
+                        <span style="color:#1d6293">НА РУССКОМ</span>
+                      </a>
+                    </li>
+                  </div>
+                  
+                  <div id="swahili" class="child">
+                    <li>
+                      <a href="#">
+                        <span>Swahili</span>
+                        <span style="color:#1d6293">SWAHILI</span>
+                      </a>
+                    </li>
+                  </div>
+                  
+                  <div id="urdu" class="child">
+                    <li>
+                      <a href="#">
+                        <span>Urdu</span>
+                        <span style="color:#1d6293">اردو</span>
+                      </a>
+                    </li>
+                  </div>
+                  
+                  <div id="burmese" class="child">
+                    <li>
+                      <a href="#">
+                        <span>Burmese</span>
+                        <span style="color:#1d6293">ဗမာ</span>
+                      </a>
+                    </li>
+                  </div>
+                  
+                  <div id="hindi" class="child">
+                    <li>
+                      <a href="#">
+                        <span>Hindi</span>
+                        <span style="color:#1d6293">हिन्दी</span>
+                      </a>
+                    </li>
+                  </div>
+                  
+                  <div id="kirundi" class="child">
+                    <li>
+                      <a href="#">
+                        <span>Kirundi</span>
+                        <span style="color:#1d6293">KIRUNDI</span>
+                      </a>
+                    </li>
+                  </div>
+                  
+                  <div id="pashto" class="child">
+                    <li>
+                      <a href="#">
+                        <span>Pashto</span>
+                        <span style="color:#1d6293">پښتو</span>
+                      </a>
+                    </li>
+                  </div>
+                  
+                  <div id="sinhala" class="child">
+                    <li>
+                      <a href="#">
+                        <span>Sinhala</span>
+                        <span style="color:#1d6293">සිංහල</span>
+                      </a>
+                    </li>
+                  </div>
+                  
+                  <div id="tamil" class="child">
+                    <li>
+                      <a href="#">
+                        <span>Tamil</span>
+                        <span style="color:#1d6293">தமிழ்</span>
+                      </a>
+                    </li>
+                  </div>
+                  
+                  <div id="uzbek" class="child">
+                    <li>
+                      <a href="#">
+                        <span>Uzbek</span>
+                        <span style="color:#1d6293">O'ZBEK</span>
+                      </a>
+                    </li>
+                  </div>
+                
+                  </section>
+                  </ul>
+                  </section>
+                  
+                  <footer>
+                      <div id="BBC-title">
+                        <h2>Explore the BBC</h2>
+                      </div>
+                      <section id="BBC">
+                      <ul>
+                        <li id="home_link"><a href="#">Home</a></li>
+                        <li id="news_link"><a href="#">News</a></li>
+                        <li id="sport_link"><a href="#">Sport</a></li>
+                        <li id="reel_link"><a href="#">Reel</a></li>
+                        <li id="worklife_link"><a href="#">Worklife</a></li>
+                        <li id="travel_link"><a href="#">Travel</a></li>
+                        <li id="future_link"><a href="#">Future</a></li>
+                        <li id="culture_link"><a href="#">Culture</a></li>
+                        <li id="music_link"><a href="#">Music</a></li>
+                        <li id="tv_link"><a href="#">TV</a></li>
+                        <li id="weather_link"><a href="#">Weather</a></li>
+                        <li id="sounds_link"><a href="#">Sounds</a></li>
+                      </ul>
+                    </section>
+
+                    <section id="info">
+                      <ul>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">About the BBC</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Accessibility Help</a></li>
+                        <li><a href="#">Parental Guidance</a></li>
+                        <li><a href="#">Contanct the BBC</a></li>
+                        <li><a href="#">Get Personalised Newsletters</a></li>
+                        <li><a href="#">Advertise with us</a></li>
+                        <li><a href="#">AdChoices / Do not Sell my Info</a></li>
+                      </ul>
+                      <small><em>Copyright © 2021 BBC.</em></small>
+                      <span>The BBC is not responsible for the content of external sites.</span>
+                      <span><a href="#">Read about our approach to external linking.</a></span>
+                    </section>
+                  </footer>
+</body>
+</html>
