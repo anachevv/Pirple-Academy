@@ -7,12 +7,14 @@ body {
     height: 45px;
     background-color: black;
     line-height: 45px;
+    overflow: hidden;
   }
   
   nav ul {
     list-style: none;
     display: flex;
     padding-left: 280px;
+    margin: 0;
   }
   nav li {
     padding-left: 15px;
@@ -1707,3 +1709,17 @@ body {
   #info {
     padding-bottom: 10px;
   }
+
+
+/* Responsiveness */
+  @media (max-width: 768px) {
+    nav ul {
+        padding-left: 0;
+        justify-content: center; /* Center the items on small screens */
+    }
+
+    nav li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
